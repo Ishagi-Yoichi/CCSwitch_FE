@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Hero() {
   return (
     /* FIXED: Removed overflow-hidden from this section wrapper to let negative positions break out safely */
