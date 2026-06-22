@@ -111,7 +111,7 @@ export default function Hero() {
           <div className="p-5 space-y-2 text-xs md:text-sm max-h-[380px] overflow-y-auto rounded-b-2xl">
             <div className="flex items-center gap-2">
               <span className="text-emerald-400 font-bold">$</span>
-              <span className="text-slate-100">ehviewer setup --update</span>
+              <span className="text-slate-100">CCSwitch setup --update</span>
             </div>
 
             <p className="text-blue-400">
