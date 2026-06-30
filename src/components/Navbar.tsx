@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-slate-100/80 transition-all">
@@ -17,20 +19,32 @@ export default function Navbar() {
           <a href="#home" className="hover:text-slate-900 transition-colors">
             Home
           </a>
-          <a href="#about" className="hover:text-slate-900 transition-colors">
+          <Link to="/about" className="hover:text-slate-900 transition-colors">
             About
-          </a>
-          <a href="#faq" className="hover:text-slate-900 transition-colors">
+          </Link>
+          <Link to="/faq" className="hover:text-slate-900 transition-colors">
             FAQ
-          </a>
-          <a href="#contact" className="hover:text-slate-900 transition-colors">
+          </Link>
+          <Link
+            to="/contact"
+            className="hover:text-slate-900 transition-colors"
+          >
             Contact
-          </a>
+          </Link>
+          <Link
+            to="/install"
+            className="hover:text-slate-900 transition-colors"
+          >
+            Download
+          </Link>
         </div>
 
         {/* Dynamic CTA Button */}
-        <button className="bg-slate-950 hover:bg-slate-900 text-white px-5 py-2.5 rounded-full text-sm font-semibold shadow-sm transition-all">
-          Github
+        <button
+          className="bg-slate-950 hover:bg-slate-900 cursor-pointer text-white px-5 py-2.5 rounded-full text-sm font-semibold shadow-sm transition-all"
+          onClick={() => (window.location.href = "/install")}
+        >
+          Download
         </button>
       </div>
     </nav>

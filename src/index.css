@@ -1,1 +1,8 @@
 @import "tailwindcss";
+@import url("https://googleapis.com");
+
+@theme {
+    --font-sans: "Geist Sans", sans-serif;
+    --font-mono: "Geist Mono", monospace;
+    --font-geist: "Geist", sans-serif;
+}

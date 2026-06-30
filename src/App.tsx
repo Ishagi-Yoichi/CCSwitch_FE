@@ -1,9 +1,10 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
-import InstallGuide from "./components/InstallGuide";
+
 import Reviews from "./components/Reviews";
 import Footer from "./components/Footer";
+import FaqAccordion from "./components/FaqAccordion";
 
 export default function App() {
   return (
@@ -12,7 +13,7 @@ export default function App() {
       <main>
         <Hero />
         <Features />
-        <InstallGuide />
+        <FaqAccordion />
         <Reviews />
         <Footer />
       </main>

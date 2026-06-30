@@ -42,58 +42,59 @@ export default function Features() {
     {
       icon: "⚡",
       iconBg: "bg-blue-50 text-blue-600",
-      title: "Multi-Agent Switching",
+      title: "One Click Configuration",
       description:
-        "Instantly cycle through Claude Code, Codex, and Custom LLM wrappers without changing terminals or managing active process tabs manually.",
+        "When using multiple coding tools simultaneously, manual configuration is pretty hectic. But CC Switch has a solution for you. Now you can configure all the tools with a single click without editing JSON, TOML, and .env files. One platform to streamline all your coding hustle.",
     },
     {
       icon: "📦",
       iconBg: "bg-red-50 text-red-600",
-      title: "Full MCP Support",
+      title: "Free and Open Source",
       description:
-        "Native integrations for Model Context Protocol. Link backend schemas, filesystem context, and remote APIs across all agents in one run.",
+        "One of the best features of CC Switch is that it is quite free and open source. It falls under the MIT License and is managed by the community, so it will save your bucks as well.",
     },
     {
       icon: "⚙️",
       iconBg: "bg-amber-50 text-amber-600",
-      title: "Unified Configuration",
+      title:
+        "Bring MCP, Prompts, and Skills Together in a Single Control Panel",
       description:
-        "Say goodbye to broken environmental values. Control all proxy rules, API tokens, and sandbox runtimes from a single desktop profile.",
+        "No more digging through app-specific folders — one unified workspace manages imports, sync, backfill protection, and seamless cross-app writes.",
     },
     {
       icon: "❤️",
       iconBg: "bg-emerald-50 text-emerald-600",
-      title: "Hot-Key Orchestration",
+      title: "Hassle-Free Session Management",
       description:
-        "Save active prompt frames, custom workflow macros, and context snapshots to spin up repetitive tasks in a split second.",
+        "Developers who are fully dependent on AI tools know the importance of session management. In the old sessions, there is various valuable information, and CC Switch can browse and restore old conversations from different apps to save your effort.",
     },
     {
       icon: "🎨",
       iconBg: "bg-purple-50 text-purple-600",
-      title: "Custom TUI Themes",
+      title: "Cloud Sync and Backup",
       description:
-        "Tailor visual syntax, contrast levels, and stream behaviors. Works perfectly with modern GPU-accelerated terminal renderers.",
+        "Connect through WebDAV or popular cloud storage folders to seamlessly sync configurations across devices, while SQLite-backed storage and atomic write operations help prevent corruption, eliminate config drift, and ensure every change is saved consistently and safely.",
     },
     {
       icon: "🛡️",
       iconBg: "bg-orange-50 text-orange-600",
-      title: "Local-First Sandbox",
+      title: "Local Proxy and Failover",
       description:
-        "No remote session caching, no telemetry tracking. Every execution loop respects your explicit project boundaries and local .gitignore structures.",
+        "One of the most important features of CCSwitch is its local proxy mode. So different tools don’t talk to model services directly—instead, they route all requests through this proxy. This makes it easier to control, manage, and standardize how tools access model services. For multiple providers, it is a boon as the user can easily switch between different models, formats, and services.",
     },
     {
       icon: "💰",
       iconBg: "bg-yellow-50 text-yellow-600",
-      title: "Free & Open Source",
+      title: "Multiple Platform Support",
       description:
-        "CCSwitch is entirely MIT licensed and free of premium layer popups or usage paywalls. Built directly for the active developer community.",
+        "It works on all the major modern operating systems you’re likely to use today. On Windows, that means Windows 10 and anything newer. On Mac, it supports macOS 12 Monterey and up, including both Intel Macs and Apple Silicon machines. On Linux, it runs smoothly on popular distributions like Ubuntu 22.04 and later, Debian 11 and above, and Fedora 34 or newer. It also supports both x64 and ARM64 chips, so whether you’re on a laptop, desktop, or server, it should just work without extra hassle.",
     },
     {
       icon: "🌐",
       iconBg: "bg-teal-50 text-teal-600",
-      title: "Proxy Control Matrix",
+      title: "Custom TUI Themes",
       description:
-        "Route specific agent instances through reliable local reverse proxies, keeping heavy dev streams isolated and secure from rate limits.",
+        "You can customize how the terminal looks and behaves. Adjust colors, syntax highlighting, contrast, and how information streams on the screen to match your preferences. It’s also optimized to work smoothly with modern terminals that use GPU acceleration, so everything feels fast and responsive.",
     },
   ];
 
@@ -106,13 +107,8 @@ export default function Features() {
         {/* Header Block */}
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h2 className="text-4xl font-semibold text-slate-900 tracking-tight mb-4">
-            Why developers love CCSwitch
+            Key Features of CCSwitch
           </h2>
-          <p className="text-slate-500 text-base md:text-lg leading-relaxed">
-            Think of CCSwitch as your central terminal command center—built for
-            comfort, speed, and complete execution privacy. Powered entirely by
-            open-source systems.
-          </p>
         </div>
 
         {/* Feature Grid Asset */}
